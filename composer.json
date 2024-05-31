@@ -1,0 +1,21 @@
+{
+	"name": "vd/vd-site",
+	"description": "TYPO3 locking with database",
+	"version": "3.0.0",
+	"type": "typo3-cms-extension",
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"typo3/cms-core": "^9.5 || ^10.4 || ^11.5 || ^12.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Vd\\VdSite\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "vd_site"
+		}
+	}
+}
+
