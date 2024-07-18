@@ -1,5 +1,5 @@
 {
-	"name": "vd/vd-site",
+	"name": "vd/database-locks",
 	"description": "TYPO3 locking with database",
 	"version": "3.0.0",
 	"type": "typo3-cms-extension",
@@ -9,12 +9,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Vd\\VdSite\\": "Classes/"
+			"Vd\\DatabaseLocks\\": "Classes/"
 		}
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "vd_site"
+			"extension-key": "database_locks"
 		}
 	}
 }

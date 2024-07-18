@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Vd\VdSite;
+namespace Vd\DatabaseLocks;
 
 
 use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
